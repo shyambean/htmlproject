@@ -1,0 +1,165 @@
+@charset "UTF-8";
+body {
+  font-size: 14px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.top {
+  background: #088f33;
+  color: #fff;
+}
+.top ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+.top .social li {
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  border-radius: 50px;
+  line-height: 30px;
+  text-align: center;
+}
+.top .social li a {
+  color: #0b732b;
+}
+
+.bg-body-tertiary {
+  background-color: #0b732b !important;
+}
+
+.navbar-brand {
+  position: absolute;
+  top: -50px;
+  z-index: 999;
+}
+.navbar-brand img {
+  border: 3px solid orange;
+}
+
+.banner img {
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.banner .carousel-caption {
+  right: 150px;
+  bottom: 200px;
+  text-align: right;
+}
+
+.about .title {
+  background: #0b732b;
+  color: #fff;
+  padding: 10px;
+  display: inline-block;
+}
+
+.featured li::before {
+  content: "→";
+  color: #088f33;
+  padding: 10px;
+}
+
+.fbox {
+  height: 240px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+  position: relative;
+}
+.fbox img {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+.fbox:hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+.fbox p {
+  background: #0b732b;
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+  padding: 10px;
+  color: #fff;
+}
+
+.ab {
+  background: #0b732b;
+  bottom: 0px;
+  left: 0px;
+  padding: 0px;
+  color: #fff;
+}
+
+.accordion-button:not(.collapsed)::after {
+  content: "-";
+  background-image: none !important;
+}
+
+.accordion-button::after {
+  content: "+";
+  background-image: none !important;
+}
+
+.accordion-button::after {
+  background-image: none !important;
+}
+
+.accordion-button::after {
+  background: none;
+}
+
+.image {
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.mySwiper .swiper-slide img {
+  height: 280px;
+}
+
+.ss {
+  background-image: url(https://img.freepik.com/free-photo/full-shot-travel-concept-with-landmarks_23-2149153258.jpg?semt=ais_hybrid&w=740&q=80);
+  height: 350px;
+  background-repeat: no-repeat;
+  color: blue;
+  font-size: 20px;
+}
+
+.bg-warning1 {
+  background: orange;
+  border-radius: 5px;
+}
+.bg-warning1:hover {
+  background: green;
+}
+
+.btn {
+  background: orange;
+}
+.btn:hover {
+  background: green;
+}
+
+.sat {
+  background: green;
+}
+.sat:hover {
+  background: orange;
+}/*# sourceMappingURL=style.css.map */
